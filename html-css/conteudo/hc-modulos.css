@@ -73,8 +73,7 @@ nav.ex {
   display: inline-block;
   margin: 0.5vw;
   width: 26.1vw;
-}
-h2, h2 > a {
+} h2, h2 > a {
   transition-duration: 0.125s;
   background-image: linear-gradient( 90deg, transparent, var(--cor1) );
   letter-spacing: 0.5vw;
@@ -92,8 +91,7 @@ h2, h2 > a {
   padding: 0.5vw;
   height: 11.5vw;
   border: 0.5vw solid #00000000;
-}
-  li {
+} li {
   list-style-position: inside;
   background-image: linear-gradient( 90deg , transparent , var(--cor3) );
   border-radius: 0.5vw;
@@ -103,11 +101,10 @@ h2, h2 > a {
   font-size: 2vw;
   padding: 0.5vw;
   margin: 1vw 0vw;
-}
-li::before { margin: 0vw -0.75vw 0vw -2vw; content: "📁"; }
-li > a::before { content: "\00a0\00a0\00a0\00a0\00a0"; }
-li > a { transition-duration: 0.125s; text-decoration: none; color: var(--cor6); }
-li > a:hover {
+} li::before { margin: 0vw -0.75vw 0vw -2vw; content: "📁"; }
+  li > a::before { content: "\00a0\00a0\00a0\00a0\00a0"; }
+  li > a { transition-duration: 0.125s; text-decoration: none; color: var(--cor6); }
+  li > a:hover {
   text-shadow: 0em 0em 0.25vw var(--cor7);
   color: var(--cor7);
 } a > sup { font-size: 01vw; }
