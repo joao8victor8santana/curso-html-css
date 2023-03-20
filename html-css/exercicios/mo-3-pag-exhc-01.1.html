@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="conteudo/favicon.ico" type="image/x-icon">
+    <title>Teste de Imagem de Fundo</title>
+    <link rel="stylesheet" href="style/pag-exh.css">
+  <style>
+  article#ex {
+    background: url("conteudo/wallpaper001.jpg") center center repeat fixed;
+    background-size: cover;
+  }
+  div.quadrado {
+    margin: 0em 1em;
+    background-color: #f5f5f5;
+    border-radius: 1em;
+    display: inline-block;
+    max-height: 80%;
+    height: 18.5em;
+    border: 0.1em solid #000000;
+    max-width: 80%;
+    width: 18.5em;
+  }
+  div#q1 {
+    background-color: #87ceeb;
+  }
+  div#q2 {
+    background-image: linear-gradient(180deg, #ffff00, #ff0000);
+  }
+  div#q3 {
+    background-image: url("conteudo/pattern001.png");
+  }
+  div p {
+    color: #aa6ba3;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  </style>
+</head>
+<body>
+
+
+
+  <main>
+  <article id="titu">
+    <a id="vol" href="../html-css-modulos.html"> <img src="conteudo/voltar.png" alt="botão pra voltar"> </a>
+    <h1 id="titu">Testando Carga e Imagens</h1>
+  </article>
+  <article id="ex">
+    <div class="quadrado" id="q1">
+      <p>background-color</p>
+    </div>
+  
+    <div class="quadrado" id="q2">
+      <p>linear-gradient</p>
+    </div>
+  
+    <div class="quadrado" id="q3">
+      <p>background-image: url(" ")</p>
+    </div>
+  </article>
+  </main>
+
+</body>
+</html>
