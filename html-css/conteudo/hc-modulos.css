@@ -1,4 +1,4 @@
-@charset "UTF-8";@charset "UTF-8";
+@charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 
 
@@ -35,34 +35,62 @@ body {
 /* corpo */
 main {
   background-color: var(--cor0);
-  border-radius: 1vw;
+  border-radius: 1em;
   box-shadow: inset 0vw 0vw 2.5vw var(--cor1);
   transform: translate( -50% , 00% );
   position: absolute;
-  padding: 0.5vw;
+  padding: 0.15em;
   margin: auto;
-  width: 81.5vw;
+  width: min( 90% , 64em );
   left: 50%;
-  top: 05%;
+  top: 2.5em;
 }
-h1#titu {
-  letter-spacing: 0.5vw;
+
+
+/* título e volta */
+article#titu {
+  background-image: linear-gradient( 00deg , transparent 75% , var(--cor1) );
+  border-radius: 0.9em 0.9em 0em 0em;
   border-bottom: 0.1vw solid var(--cor7);
-  padding-left: 1.5vw;
+  text-align: right;
+  position: relative;
+} div#vol {
+  position: absolute;
+  height: 100%;
+  width: 4.5em;
+} a#vol > img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  transform: translate( -50% , -50% );
+  width: 3em;
+} a#vol > img:hover { box-shadow: inset 0vw 0vw 01vw var(--cor7); }
+
+
+div#titu {
+  display: inline-block;
+  width: calc( 100% - 5em );
+} article#titu > div#titu > h1 {
+  letter-spacing: 0.1em;
   text-shadow: 0em 0em 0.25em var(--cor6);
   font-family: var(--fontetitu);
   text-align: left;
-  font-size: 3.5vw;
+  font-size: 3.2em;
   color: var(--cor6);
-} a#vol { margin-right: 0.75vw; text-align: center; }
-  a#vol > img { border-radius: 50%; width: 2.75vw; }
-  a#vol > img:hover { box-shadow: inset 0vw 0vw 01vw var(--cor7); }
-  article#ex { position: relative; height: 41vw; }
+}
 
-nav#exlo1 { position: absolute; }
-nav#exlo2 { position: absolute; transform: translate( -50% , 00% ); left: 49.35%; }
-nav#exlo3 { position: absolute; transform: translate( -100% , 00% ); left: 98.75%; }
-nav#exlo4 { position: absolute; transform: translate( 00% , -100% ); top: 97.5%;}
+
+
+
+
+
+  article#ex { position: relative; height: min( 48em , 64vh ); }
+
+nav#ex01 { position: absolute; }
+nav#ex02 { position: absolute; transform: translate( -50% , 00% ); left: 49.35%; }
+nav#ex03 { position: absolute; transform: translate( -100% , 00% ); left: 98.75%; }
+nav#ex04 { position: absolute; transform: translate( 00% , -100% ); top: 97.5%;}
 nav#inex { position: absolute; transform: translate( -100% , -100% ); top: 97.5%; left: 98.75%;}
 
 
